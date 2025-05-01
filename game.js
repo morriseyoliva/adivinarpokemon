@@ -61,5 +61,33 @@ fetch("pokedex.json")
   typeSpan.textContent = `Tipo: ${guess.type.join("/")}`;
   feedbackDiv.appendChild(typeSpan);
 
+  // Altura
+  const heightSpan = document.createElement("span");
+  if (guess.height < target.height) {
+      heightSpan.className = "lower";
+      heightSpan.textContent = `Altura: Menor que ${target.height}m`;
+  } else if (guess.height > target.height) {
+      heightSpan.className = "higher";
+      heightSpan.textContent = `Altura: Mayor que ${target.height}m`;
+  } else {
+      heightSpan.className = "equal";
+      heightSpan.textContent = `Altura: Igual a ${target.height}m`;
+  }
+  feedbackDiv.appendChild(heightSpan);
+
+    // Peso
+    const weightSpan = document.createElement("span");
+    if (guess.weight < target.weight) {
+        weightSpan.className = "lower";
+        weightSpan.textContent = `Altura: Menor que ${target.weight}m`;
+    } else if (guess.weight > target.weight) {
+        weightSpan.className = "higher";
+        weightSpan.textContent = `Altura: Mayor que ${target.weight}m`;
+    } else {
+        weightSpan.className = "equal";
+        weightSpan.textContent = `Altura: Igual a ${target.weight}m`;
+    }
+    feedbackDiv.appendChild(weightSpan);
+
   resultsDiv.appendChild(feedbackDiv);
 }
