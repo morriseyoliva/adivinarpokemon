@@ -1,0 +1,23 @@
+.feedback {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.feedback span {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.correct {
+  background-color: green;
+}
+.partial {
+  background-color: orange;
+}
+.wrong {
+  background-color: red;
+}
