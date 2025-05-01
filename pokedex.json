@@ -1,16 +1,193 @@
 [
   {
     "name": "Bulbasaur",
-    "type": ["Grass", "Poison"],
-    "generation": 1,
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "height": 0.7,
-    "weight": 6.9
+    "weight": 6.9,
+    "generation": 1
   },
   {
-    "name": "Ivisaur",
-    "type": ["Grass", "Poison"],
-    "generation": 1,
+    "name": "Ivysaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 1.0,
+    "weight": 13.0,
+    "generation": 1
+  },
+  {
+    "name": "Venusaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 2.0,
+    "weight": 100.0,
+    "generation": 1
+  },
+  {
+    "name": "Charmander",
+    "type": [
+      "Fire"
+    ],
+    "height": 0.6,
+    "weight": 8.5,
+    "generation": 1
+  },
+  {
+    "name": "Charmeleon",
+    "type": [
+      "Fire"
+    ],
+    "height": 1.1,
+    "weight": 19.0,
+    "generation": 1
+  },
+  {
+    "name": "Charizard",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "height": 1.7,
+    "weight": 90.5,
+    "generation": 1
+  },
+  {
+    "name": "Squirtle",
+    "type": [
+      "Water"
+    ],
+    "height": 0.5,
+    "weight": 9.0,
+    "generation": 1
+  },
+  {
+    "name": "Wartortle",
+    "type": [
+      "Water"
+    ],
+    "height": 1.0,
+    "weight": 22.5,
+    "generation": 1
+  },
+  {
+    "name": "Blastoise",
+    "type": [
+      "Water"
+    ],
+    "height": 1.6,
+    "weight": 85.5,
+    "generation": 1
+  },
+  {
+    "name": "Caterpie",
+    "type": [
+      "Bug"
+    ],
+    "height": 0.3,
+    "weight": 2.9,
+    "generation": 1
+  },
+  {
+    "name": "Metapod",
+    "type": [
+      "Bug"
+    ],
     "height": 0.7,
-    "weight": 6.9
+    "weight": 9.9,
+    "generation": 1
+  },
+  {
+    "name": "Butterfree",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "height": 1.1,
+    "weight": 32.0,
+    "generation": 1
+  },
+  {
+    "name": "Weedle",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 0.3,
+    "weight": 3.2,
+    "generation": 1
+  },
+  {
+    "name": "Kakuna",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 0.6,
+    "weight": 10.0,
+    "generation": 1
+  },
+  {
+    "name": "Beedrill",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "generation": 1
+  },
+  {
+    "name": "Pidgey",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 0.3,
+    "weight": 1.8,
+    "generation": 1
+  },
+  {
+    "name": "Pidgeotto",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 1.1,
+    "weight": 30.0,
+    "generation": 1
+  },
+  {
+    "name": "Pidgeot",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 1.5,
+    "weight": 39.5,
+    "generation": 1
+  },
+  {
+    "name": "Rattata",
+    "type": [
+      "Normal"
+    ],
+    "height": 0.3,
+    "weight": 3.5,
+    "generation": 1
+  },
+  {
+    "name": "Raticate",
+    "type": [
+      "Normal"
+    ],
+    "height": 0.7,
+    "weight": 18.5,
+    "generation": 1
   }
 ]
