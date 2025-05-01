@@ -89,5 +89,19 @@ fetch("pokedex.json")
     }
     feedbackDiv.appendChild(weightSpan);
 
+    // Etapa
+    const etapaSpan = document.createElement("span");
+    if (guess.etapa < target.etapa) {
+        etapaSpan.className = "lower";
+        etapaSpan.textContent = `Etapa: Menor que ${target.etapa}m`;
+    } else if (guess.etapa > target.etapa) {
+        etapaSpan.className = "higher";
+        etapaSpan.textContent = `Etapa: Mayor que ${target.etapa}m`;
+    } else {
+        etapaSpan.className = "equal";
+        etapaSpan.textContent = `Etapa: Igual a ${target.etapa}m`;
+    }
+    feedbackDiv.appendChild(etapaSpan);
+
   resultsDiv.appendChild(feedbackDiv);
 }
