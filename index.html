@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Guess Game</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Adivina el Pokémon</h1>
+    <input type="text" id="guess" list="pokemon-list" placeholder="Escribe un nombre..." autocomplete="off" />
+    <datalist id="pokemon-list"></datalist>
+    <button onclick="checkGuess()">Intentar</button>
+    <div id="results"></div>
+    <script src="game.js"></script>
+  </body>
+</html>
