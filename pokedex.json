@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": ["Grass", "Poison"],
+    "generation": 1,
+    "height": 0.7,
+    "weight": 6.9
+  },
+  {
+    "name": "Ivisaur",
+    "type": ["Grass", "Poison"],
+    "generation": 1,
+    "height": 0.7,
+    "weight": 6.9
+  }
+]
